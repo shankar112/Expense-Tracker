@@ -1,0 +1,50 @@
+.wallet-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .wallet-income-expense-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .wallet-card-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wallet-card-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .income-amount {
+    color: green;
+  }
+  
+  .expense-amount {
+    color: red;
+  }
+  
+  .chart {
+    margin-top: 20px;
+  }
+  
+  .modal-header {
+    text-align: center;
+  }
+  
+  .modal-form-income,
+  .modal-form-expense {
+    margin-top: 20px;
+  }
+  
+  .select-option {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
